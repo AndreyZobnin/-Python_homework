@@ -70,10 +70,36 @@
 #     dict[i] = 3*i + 1
 #print(dict)
 
-float_num = input('введите числа: ')
-print(type(float_num))
-sum = 0
-for i in float_num:
-     if i != '.':
-         sum += int(i)
-print(sum)
+#mas = list(map(chr, range(97, 123)))  
+#print(mas)
+#n=15
+#b1=0
+#b2=25
+#a = (datetime.datetime.now() - datetime.datetime(1, 1, 1, 0, 0)).total_seconds()
+#a=a%1
+#s=''
+#for i in range (10):
+#    a = a*(datetime.datetime.now() - datetime.datetime(1, 1, 1, 0, 0)).total_seconds()
+#    a=(a*1000)%1
+#    #sleep(1)
+#    print(a)
+#    stroka=mas[round(b1+(b2-b1)*a)]
+#    s+=stroka
+#print(s)
+
+
+#import math
+#from scipy.optimize import fsolve
+#def func(x):
+#    return x*math.cos(x-4)
+#
+#x0 = fsolve(func, 0.0)
+a = int(input("Введите число:  "))
+b = int(input("Введите число:  "))
+#a, b = 7, 5
+i = min(a, b)
+while True:
+    if i%a==0 and i%b==0:
+        break
+    i += 1
+print(i)
