@@ -1,4 +1,4 @@
-
+#Создайте программу для игры в ""Крестики-нолики"".
 import random
 
 def drawBoard(board):
