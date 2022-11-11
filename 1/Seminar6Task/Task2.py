@@ -5,5 +5,5 @@
 print('Введите целое число: ')
 N = int(input())
 	
-list = [i for i in range(-N, N + 1)]
-print(list)
+lst = [i for i in range(-N, N + 1)]
+print(lst)
