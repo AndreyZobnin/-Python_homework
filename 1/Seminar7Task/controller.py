@@ -4,10 +4,10 @@ import test_input as ti
 
 
 def start():
-    view.showInfo("hello! welcome to our phonebook!")
+    view.showInfo("Привет! Это твоя телефонная книга")
     while True:
         
-        op = view.getValue(f"input import or export mode and txt or csv format (IT / IC / ET / EC) {model.op_cod}")
+        op = view.getValue(f"режим ввода импорта или экспорта выбери формат txt или csv (IT / IC / ET / EC) {model.op_cod}")
         
         if ti.test_operations(op, model.operations.keys()):
             break
