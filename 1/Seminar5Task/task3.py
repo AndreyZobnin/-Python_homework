@@ -132,7 +132,7 @@ def isBoardFull(board):
     return True
 
 
-print('Добро пожаловать в Крестики-нолики!')
+
 
 while True:
     
