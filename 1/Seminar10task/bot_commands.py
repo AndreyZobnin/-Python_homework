@@ -1,7 +1,7 @@
 import emoji
 from telegram import Update
 from telegram.ext import CallbackContext
-from spy_log import *
+from log import *
 
 operation = 0
 numbers = []
